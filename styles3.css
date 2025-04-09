@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.myclass{
+    
+    padding: 20px;
+    margin: 20px;
+}
+.myclass h1{
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+}
+.myclass h3{
+    color: brown;
+    padding: 20px;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.myclass nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 20px;
+    position: fixed;
+    width: 100%;
+    top: 2px;
+    padding: 50px;
+
+}
+.myclass nav ul li{
+    color: white;
+    background-color: lightcoral;
+    border: solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+    
+}
+nav ul li:hover{
+    background-color: red;
+}
+nav ul li:active{
+    background-color: aqua;
+}
+.heroes h2{
+    display: flex;
+    justify-content: center;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-areas: 
+    "my contact details"
+    "my phone number"
+    "my email id";
+     gap: 20px;
+     padding: 10px;
+    
+    
+
+    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 4px;
+    margin: 20px;
+    word-spacing: 10px;
+    gap: 20px;
+}
+.content h3{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.content h4{
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+    padding: 10px;
+    margin: 10px;
+}
+.content p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+footer h3{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+    padding: 50px;
+}
+
+
+@media(max-width:768px){
+    body{
+        background-color: bisque;
+        color: green;
+    }
+}
+@media(max-width:425px){
+    body{
+        background-color: black;
+        color: white;
+    }
+}

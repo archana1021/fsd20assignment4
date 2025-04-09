@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    padding: 20px;
+    margin: 20px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+.contact h3{
+    color: brown;
+    padding: 20px;
+    margin: 25px;
+    font-weight: bold;
+
+}
+.contact nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.contact nav ul li{
+    background-color: burlywood;
+    border: solid black;
+    border-radius: 8px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 1);
+}
+.hero form{
+    padding: 35px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+label h3{
+    margin: 10px;
+    color: brown;
+    background-color: aquamarine;
+    border: solid black;
+    border-radius: 4px;
+}
+input{
+    padding: 5px;
+    width: 50%;
+    border: solid black;
+    border-radius: 8px;
+
+}
+label h4{
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    border: solid black;
+    border-radius: 4px;
+}
+label h5{
+    padding: 20px;
+    margin: 20px;
+    border: solid black;
+    border-radius: 8px;
+    position: relative;
+}
+button{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    border: solid black;
+    border-radius: 4px;
+    background-color: bisque;
+    color: blue;
+    
+}
+*{
+    background-color: plum;
+}
+@media(max-width:768px){
+    body{
+        background-color: olivedrab;
+        color: hotpink;
+    }
+}
+@media(max-width:425px){
+    body{
+        background-color: indigo;
+        color: white;
+    }
+}
+
+    
+
+
+    
+    
+    
